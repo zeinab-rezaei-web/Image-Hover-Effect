@@ -1,0 +1,116 @@
+/* trick address: https://codepen.io/herve/pen/eYwdow */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 1000px;
+    height: 625px;
+    margin: auto;
+}
+.front{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: 1;
+    display: flex;
+}
+.front>div{
+    width: 5%;
+    height: 100%;
+    background-image: url(../img/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    transition: all 1.3s ease-in-out;
+}
+.front>div:nth-of-type(1){
+    background-position: 0 0;
+}
+.front>div:nth-of-type(2){
+    background-position: -50px 0;
+}
+.front>div:nth-of-type(3){
+    background-position: -100px 0;
+}
+.front>div:nth-of-type(4){
+    background-position: -150px 0;
+}
+.front>div:nth-of-type(5){
+    background-position: -200px 0;
+}
+.front>div:nth-of-type(6){
+    background-position: -250px 0;
+}
+.front>div:nth-of-type(7){
+    background-position: -300px 0;
+}
+.front>div:nth-of-type(8){
+    background-position: -350px 0;
+}
+.front>div:nth-of-type(9){
+    background-position: -400px 0;
+}
+.front>div:nth-of-type(10){
+    background-position: -450px 0;
+}
+.front>div:nth-of-type(11){
+    background-position: -500px 0;
+}
+.front>div:nth-of-type(12){
+    background-position: -550px 0;
+}
+.front>div:nth-of-type(13){
+    background-position: -600px 0;
+}
+.front>div:nth-of-type(14){
+    background-position: -650px 0;
+}
+.front>div:nth-of-type(15){
+    background-position: -700px 0;
+}
+.front>div:nth-of-type(16){
+    background-position: -750px 0;
+}
+.front>div:nth-of-type(17){
+    background-position: -800px 0;
+}
+.front>div:nth-of-type(18){
+    background-position: -850px 0;
+}
+.front>div:nth-of-type(19){
+    background-position: -900px 0;
+}
+.front>div:nth-of-type(20){
+    background-position: -950px 0;
+}
+.front>div:hover{
+    opacity: 0;
+    transition: all 0s linear;
+}
+.txt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+.h{
+    color: rgba(51, 51, 51, 0.216);
+    font-size: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: inline-block;
+    width: 310px;
+    position: absolute;
+}
+h1{
+    transform: rotate(-90deg);
+    top: 140px;left: -15px;
+}
+h2{
+    transform: rotate(90deg);
+    right: -15px;bottom: 115px;
+}
